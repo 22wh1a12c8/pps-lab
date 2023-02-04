@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main( )
+{
+int length,breadth,area_of_rectangle;
+printf("enter lenght");
+scanf("%d",&length);
+printf("enter breadth");
+scanf("%d",&breadth);
+area_of_rectangle =length*breadth;
+printf("area of rectangle%d",area_of_rectangle);
+return;
+}
+output:
+enter lenght 3
+enter breadth 4
+area of rectangle12
