@@ -1,0 +1,8 @@
+#include<stdio.h>
+void main(  )
+{
+printf("Address:H.No:1-5-3,Boiwada,Karimnagar");
+return;
+}
+output:
+Address:H.No:1-5-3,Boiwada,Karimnagar
