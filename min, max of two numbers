@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+int a=3,b=4,c=5,max,min;
+max=(a>=b&&a>=c)?a:(b<=a&&b<=c)?b:c;
+min=(a<=b&&a<=c)?a:(b<=a&&b<=c)?b:c;
+printf("%d is maximum,\n%d is minimum", max,min);
+}
+//return;
+output:
+5 is maximum,
+3 is minimum
