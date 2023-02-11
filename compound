@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include <math.h>
+void main ()
+{
+float principle_amount,rate,time;
+principle_amount=200,rate=22,time=3;
+float ci=principle_amount*pow((1+rate/100),time);
+printf("the compound intrest is %f",ci);
+return;
+}
+output:
+the compound intrest is 363.169617
