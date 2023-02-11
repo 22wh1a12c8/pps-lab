@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main(  )
+{
+short int number=40;
+long int no=73737;
+float f= 3.14;
+double d= 39.42869;
+char ch='d';
+printf("%d\n",number);
+printf("%ld\n",no);
+printf("%f\n",f);
+printf("%lf\n",d);
+printf("%c\n",ch);
+return 0;
+}
+output:
+40
+73737
+3.140000
+39.428690
+d
