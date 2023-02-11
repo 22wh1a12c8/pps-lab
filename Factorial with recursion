@@ -17,5 +17,5 @@ else
 return num*fact(num-1);
 }
 output:
-enter the value of num4 
+enter the value of num 4 
 24
